@@ -1,7 +1,7 @@
 <template>
 
 
-  <body>
+  <div class="content">
   <div class="logo_and_title">
     <table>
       <tr>
@@ -125,7 +125,7 @@
 
   </div>
 
-  </body>
+  </div>
 
 </template>
 
@@ -203,12 +203,19 @@ export default {
 </script>
 
 <style scoped>
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 .logo_and_title{
   width: 400px;
   height: 120px;
   text-align: center;
   padding-left: 37%;
   padding-top: 2%;
+  position: absolute;
 }
 .logo_and_title img{
   width: 80px;
@@ -220,6 +227,9 @@ export default {
   /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
 
   height: 1000px;
+  position: absolute;
+  padding-left: 33%;
+  padding-top: 7%;
   /* background-color: #f3e6f7; */
   /* padding: 50px; */
   /* background-color: azure; */

@@ -4,7 +4,7 @@
     <title>More Interests</title>
   </head>
 
-  <body>
+  <div class="content">
 
   <div id="logo_and_title">
     <table>
@@ -111,7 +111,7 @@
     </div>
 
 
-  </body>
+  </div>
 
 </template>
 
@@ -122,17 +122,27 @@ export default {
 </script>
 
 <style scoped>
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 #logo_and_title{
   width: 400px;
   height: 120px;
   text-align: center;
   padding-left: 37%;
   padding-top: 2%;
+  position: absolute;
 }
 .more_interests_container{
   /* background: url('jack-finnigan-M9EctVUPrp4-unsplash.jpg') no-repeat center center fixed; */
 
   height: 1000px;
+  position: absolute;
+  padding-left: 33%;
+  padding-top: 7%;
   /* background-color: #f3e6f7; */
   /* padding: 50px; */
   /* background-color: azure; */

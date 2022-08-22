@@ -4,7 +4,7 @@
     <title>Reset Password</title>
   </head>
 
-  <body>
+  <div class="content">
 
   <div class="logo_and_title">
     <table>
@@ -36,7 +36,7 @@
     </div>
 
   </div>
-  </body>
+  </div>
 
 </template>
 
@@ -47,12 +47,19 @@ export default {
 </script>
 
 <style scoped>
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 .logo_and_title{
   width: 400px;
   height: 120px;
   text-align: center;
   padding-left: 37%;
   padding-top: 2%;
+  position: absolute;
 }
 .logo_and_title img{
   width: 80px;
@@ -62,6 +69,9 @@ export default {
 }
 .reset_password_container{
   height: 640px;
+  position: absolute;
+  padding-left: 33%;
+  padding-top: 7%;
 
 }
 .reset_password_form{

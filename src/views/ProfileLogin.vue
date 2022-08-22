@@ -2,10 +2,8 @@
 <!--  <div class="header">-->
 <!--    <h2>wisdom connect</h2>-->
 <!--  </div>-->
-  <div style="width: 100%; height: 120vh;  overflow: hidden">
+  <div class="content">
     <wisdom-header></wisdom-header>
-
-
     <div class="profiles_container">
       <div class="profiles_form">
         <div class="profiles_form_header"><p>Resident's Profiles</p></div>
@@ -127,6 +125,12 @@ export default {
 </script>
 
 <style scoped>
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 .logo_and_title{
   width: 400px;
   height: 120px;

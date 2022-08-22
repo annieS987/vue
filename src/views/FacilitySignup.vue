@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 100%; height: 120vh;  overflow: hidden">
+  <div class="content">
 <!--    <div class="header">-->
 <!--      <h2 >wisdom connect</h2>-->
 <!--    </div>-->
@@ -246,12 +246,19 @@ export default {
 </script>
 
 <style scoped>
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 .logo_and_title{
   width: 400px;
   height: 120px;
   text-align: center;
   padding-left: 37%;
   padding-top: 2%;
+  position: absolute;
 }
 .logo_and_title img{
   width: 80px;
@@ -261,6 +268,9 @@ export default {
 }
 .signup_container{
   height: 1200px;
+  position: absolute;
+  padding-left: 33%;
+  padding-top: 7%;
 }
 .signup_form{
   width: 600px;

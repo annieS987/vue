@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 100%; height: 100vh;  overflow: hidden">
+  <div class="content">
     <wisdom-header></wisdom-header>
 
     <div class="login_container">
@@ -90,7 +90,12 @@ export default {
 </script>
 
 <style scoped>
-
+.content{
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+  position:relative;
+}
 .logo_and_title img{
   width: 80px;
 }
